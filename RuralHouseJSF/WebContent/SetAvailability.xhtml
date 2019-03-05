@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:p="http://primefaces.org/ui">
+<f:view style="height: 329px; ">
+<h:head>
+<title>Set Availability</title>
+</h:head>
+<h:body style="height: 291px; ">
+<h:form  style="background-color: #E6E6E6;">
+	<h1 style="text-align:center"> SET AVAILABILITY</h1>
+		<p style="width: 143px;">List of houses:<h:selectOneMenu id="house" value="#{setBean.casa}" converter="omnifaces.SelectItemsConverter" style="width: 103px; ">
+			<f:selectItems value="#{setBean.casas}" />
+		</h:selectOneMenu></p>
+		
+		<h:message for="house"/>
+		
+				<p>Price</p>
+		<h:inputText id="precio" value="#{setBean.precio}">
+			<f:validateLongRange minimum="1" />
+			<f:converter converterId="javax.faces.Float" />
+		</h:inputText>
+		<br /><h:message for="precio" style="color:red" />
+		
+		<p>First Day:</p>
+		<p:calendar id="firstDay" value="#{setBean.diaInicio}"
+			navigator="true" mode="popup" required="true"
+			requiredMessage="Debes seleccionar un dia de entrada en el calendario">
+			<p:ajax event="dateSelect" update="diaInicio" />
+		</p:calendar>
+		<h:outputText id="diaInicio" value="#{setBean.diaInicio}" style="color:blue">
+			<f:convertDateTime pattern="dd/MM/yyyy" timeZone="CET" />
+		</h:outputText>
+		
+		<p>Last Day:</p>
+		<p:calendar id="lastDay" value="#{setBean.diaFin}"
+			navigator="true" mode="popup" required="true"
+			requiredMessage="Debes seleccionar un dia de salida en el calendario">
+			<p:ajax event="dateSelect" update="diaFin" />
+		</p:calendar>
+		<h:outputText id="diaFin" value="#{setBean.diaFin}" style="color:blue">
+			<f:convertDateTime pattern="dd/MM/yyyy" timeZone="CET" />
+		</h:outputText>
+		<br />
+		<br />	
+		<p style="text-align: center">	
+		<h:commandButton value="Accept" action="#{setBean.action}" style="background-color:#CECEF6; width: 111px; height: 42px; "/>
+		<h:commandButton value="Volver" action="main" immediate="true" style="background-color:#CECEF6; width: 96px; height: 40px; "/>
+		<br />
+		<h:outputText value="#{setBean.resultado}" style="color:red"></h:outputText>
+		</p>
+</h:form>
+</h:body>
+</f:view>
+</html>

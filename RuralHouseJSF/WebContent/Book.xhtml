@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Book</title>
+</h:head>
+<body>
+	<h:form style="background-color: #E6E6E6;">
+		<h1 style="text-align: center">BOOK</h1>
+		<p style="width: 124px; ">Rural House :</p>
+
+		<h:outputText value="#{queryBean.casa}" style="color : blue"></h:outputText>
+		<p>Arrival day :</p>
+		<h:outputText value="#{queryBean.diaInicioOferta}"
+			style="color : blue">
+			<f:convertDateTime timeZone="CET" pattern="dd/MM/yyyy" />
+		</h:outputText>
+		<p>Departure day:</p>
+		<h:outputText value="#{queryBean.diaFinOferta}" style="color : blue">
+			<f:convertDateTime timeZone="CET" pattern="dd/MM/yyyy" />
+		</h:outputText>
+		<p>Introduce a telephone :</p>
+		<h:inputText id="telefono" value="#{queryBean.telefono}"
+			required="true"
+			requiredMessage="Necesitas introducir un numero de telefono">
+			<f:validateLength maximum="9" minimum="9" />
+			<f:converter converterId="javax.faces.Integer" />
+			</h:inputText>
+		<h:message for="telefono"></h:message>
+		<p style="text-align: center">
+			<h:commandButton value="Alquilar"
+				action="#{queryBean.aceptarAlquilerOferta}"
+				style="background-color:#CECEF6; width: 98px; height: 53px; "></h:commandButton>
+			<h:commandButton value="Volver" action="query" immediate="true"
+				style="background-color:#CECEF6; width: 84px; height: 52px; "></h:commandButton>
+			<br></br>
+			<h:outputText value="#{queryBean.mensajeAlquiler}" style="color: red"></h:outputText>
+		</p>
+	</h:form>
+</body>
+
+</html>

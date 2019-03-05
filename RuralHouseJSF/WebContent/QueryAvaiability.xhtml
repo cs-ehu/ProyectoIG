@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:o="http://omnifaces.org/ui"
+	xmlns:of="http://omnifaces.org/functions"
+	xmlns:p="http://primefaces.org/ui">
+
+	<h:head>
+		<title>Query Availability</title>
+	</h:head>
+	<h:body>
+	<h:form  style="background-color: #E6E6E6;">
+	<h1 style="text-align:center"> QUERY AVAILABILITY</h1>
+		<p style="width: 143px;">Rural House:</p>
+		<h:selectOneMenu id="house" value="#{queryBean.casa}"
+			converter="omnifaces.SelectItemsConverter">
+			<f:selectItems value="#{queryBean.casas}" />
+		</h:selectOneMenu>
+		<h:message for="house"/>
+		
+		<p>Selecciona la fecha de entrada:</p>
+
+		<p:calendar id="arrDay" value="#{queryBean.diaInicio}"
+			navigator="true" mode="popup" required="true"
+			requiredMessage="Debes seleccionar un dia de entrada en el calendario">
+			<p:ajax event="dateSelect" update="diaInicio" />
+		</p:calendar>
+		<h:outputText id="diaInicio" value="#{queryBean.diaInicio}" style="color:blue">
+			<f:convertDateTime pattern="dd/MM/yyyy" timeZone="CET" />
+		</h:outputText>
+		<h:message for="arrDay"></h:message>
+		<p>Number of nights:</p>
+		<h:inputText id="noches" value="#{queryBean.noches}">
+			<f:validateLongRange minimum="1" />
+			<f:converter converterId="javax.faces.Integer" />
+		</h:inputText>
+		<h:message for="noches" style="color:red" />
+		<br />
+		
+		<p:dataTable value="#{queryBean.offers}" id="tablaOfertas" var="offer" selectionMode="single" selection="#{queryBean.selectedOffer}" rowKey="#{offer.offerNumber}">
+			<p:column headerText="Number">
+				<h:outputText value="#{offer.offerNumber}"></h:outputText>
+			</p:column>
+			<p:column headerText="Rural House">
+				<h:outputText value="#{offer.ruralHouse}"></h:outputText>
+
+			</p:column>
+			<p:column headerText="First day">
+				<h:outputText value="#{offer.firstDay}">
+					<f:convertDateTime timeZone="CET" pattern="dd/MM/yyyy" />
+				</h:outputText>
+			</p:column>
+			<p:column headerText="Last day">
+				<h:outputText value="#{offer.lastDay}">
+					<f:convertDateTime timeZone="CET" pattern="dd/MM/yyyy" />
+				</h:outputText>
+			</p:column>
+			<p:column headerText="Price">
+				<h:outputText value="#{offer.price}"></h:outputText>
+			</p:column>
+
+			<p:ajax event="rowSelect"/>
+			<p:ajax event="rowUnselect"/>
+		</p:dataTable>
+		<h:message for="tablaOfertas"></h:message>
+		<br />
+		<p>
+			<h:outputText id="resultado" value="#{queryBean.resultado}" />
+			<br />
+			<h:outputText id="resultadoAlquiler"
+				value="#{queryBean.resultadoAlquiler}" style="color:red" />
+		</p>
+
+		<br />
+		<p style="text-align: center">
+		<h:commandButton value="Buscar ofertas" action="#{queryBean.action}" update="tablaOfertas, mensaje" style="background-color:#CECEF6; width: 151px; height: 52px; "/>
+		<h:commandButton disabled="#{queryBean.alquiler}"
+			value="Ir a alquilar" action="book" style="background-color:#CECEF6; width: 120px; height: 51px; "/>
+		<h:commandButton value="Volver" action="main" immediate="true" style="background-color:#CECEF6; width: 85px; height: 49px; "/>
+		</p>
+	</h:form>
+
+	</h:body>
+
+</html>
