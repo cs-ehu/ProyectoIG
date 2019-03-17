@@ -1,0 +1,629 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 15:32:27 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 17-18)
+
+[2018-10-20 15:32:27 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 23892@DESKTOP-O2PB285
+
+[2018-10-20 15:32:28 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 15:32:28 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 15:52:30 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 2672@DESKTOP-O2PB285
+
+[2018-10-20 15:52:30 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 15:52:30 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:00:52 #1 server] 
+Server on port 6136 has started by 2772@DESKTOP-O2PB285
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:02:27 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 19-19)
+
+[2018-10-20 16:02:27 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 21488@DESKTOP-O2PB285
+
+[2018-10-20 16:02:27 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:02:27 #4 type] 
+Type domain.Offer is not enhanced.
+
+[2018-10-20 16:04:58 #2 server] 
+java.lang.IllegalArgumentException: The file: ? doesn't exist.
+	at java.awt.Desktop.checkFileValidation(Unknown Source)
+	at java.awt.Desktop.open(Unknown Source)
+	at com.objectdb.o.ServerTrayIcon.actionPerformed(ServerTrayIcon.java:217)
+	at java.awt.MenuItem.processActionEvent(Unknown Source)
+	at java.awt.MenuItem.processEvent(Unknown Source)
+	at java.awt.MenuComponent.dispatchEventImpl(Unknown Source)
+	at java.awt.MenuComponent.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-10-20 16:05:02 #3 server] 
+Server on port 6136 has stopped by 2772@DESKTOP-O2PB285
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:15:36 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 14264@DESKTOP-O2PB285
+
+[2018-10-20 16:15:36 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:15:36 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:23:09 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 18664@DESKTOP-O2PB285
+
+[2018-10-20 16:23:09 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:23:09 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:35:24 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 19744@DESKTOP-O2PB285
+
+[2018-10-20 16:35:24 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:35:24 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:41:22 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 17852@DESKTOP-O2PB285
+
+[2018-10-20 16:41:22 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:41:22 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:42:56 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 10720@DESKTOP-O2PB285
+
+[2018-10-20 16:42:56 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:42:56 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:48:21 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 7152@DESKTOP-O2PB285
+
+[2018-10-20 16:48:21 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:48:21 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:49:22 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 22716@DESKTOP-O2PB285
+
+[2018-10-20 16:49:23 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:49:23 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:50:01 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 19476@DESKTOP-O2PB285
+
+[2018-10-20 16:50:01 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:50:01 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:50:58 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 17264@DESKTOP-O2PB285
+
+[2018-10-20 16:50:58 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:50:58 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:51:50 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 6768@DESKTOP-O2PB285
+
+[2018-10-20 16:51:51 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:51:51 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:53:23 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 2868@DESKTOP-O2PB285
+
+[2018-10-20 16:53:23 #2 type.registry] 
+New type domain.RuralHouse
+
+[2018-10-20 16:53:23 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:53:23 #4 type.registry] 
+New type domain.Offer
+
+[2018-10-20 16:53:23 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2018-10-20 16:53:23 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2018-10-20 16:53:23 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:54:28 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 1-6)
+
+[2018-10-20 16:54:28 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 19964@DESKTOP-O2PB285
+
+[2018-10-20 16:54:29 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:54:29 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:54:43 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 23896@DESKTOP-O2PB285
+
+[2018-10-20 16:54:43 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:54:43 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 16:55:30 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 21356@DESKTOP-O2PB285
+
+[2018-10-20 16:55:30 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 16:55:30 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:00:20 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 21540@DESKTOP-O2PB285
+
+[2018-10-20 17:00:20 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:00:20 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:01:13 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 15496@DESKTOP-O2PB285
+
+[2018-10-20 17:01:14 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:01:14 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:04:27 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 19744@DESKTOP-O2PB285
+
+[2018-10-20 17:04:27 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:04:27 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:16:41 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 14828@DESKTOP-O2PB285
+
+[2018-10-20 17:16:41 #2 type.registry] 
+New type domain.RuralHouse
+
+[2018-10-20 17:16:41 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:16:41 #4 type.registry] 
+New type domain.Offer
+
+[2018-10-20 17:16:41 #5 type.registry] 
+New type java.util.Vector<domain.Offer>
+
+[2018-10-20 17:16:41 #6 type] 
+Type domain.Offer is not enhanced.
+
+[2018-10-20 17:16:41 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:17:19 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 1-5)
+
+[2018-10-20 17:17:19 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 15952@DESKTOP-O2PB285
+
+[2018-10-20 17:17:19 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:17:19 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:17:37 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 16284@DESKTOP-O2PB285
+
+[2018-10-20 17:17:37 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:17:37 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:18:04 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 20532@DESKTOP-O2PB285
+
+[2018-10-20 17:18:04 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:18:05 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:21:02 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 1800@DESKTOP-O2PB285
+
+[2018-10-20 17:21:02 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:21:02 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:22:26 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 6-6)
+
+[2018-10-20 17:22:26 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 3412@DESKTOP-O2PB285
+
+[2018-10-20 17:22:26 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:22:26 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:23:57 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 22340@DESKTOP-O2PB285
+
+[2018-10-20 17:23:57 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:23:57 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:24:59 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 10444@DESKTOP-O2PB285
+
+[2018-10-20 17:24:59 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:24:59 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:27:29 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 1220@DESKTOP-O2PB285
+
+[2018-10-20 17:27:29 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:27:29 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:28:29 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 21068@DESKTOP-O2PB285
+
+[2018-10-20 17:28:29 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:28:29 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:29:23 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 15952@DESKTOP-O2PB285
+
+[2018-10-20 17:29:23 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:29:23 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:33:44 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 19052@DESKTOP-O2PB285
+
+[2018-10-20 17:33:44 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:33:44 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:40:48 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 18304@DESKTOP-O2PB285
+
+[2018-10-20 17:40:48 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:40:48 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:42:54 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 10092@DESKTOP-O2PB285
+
+[2018-10-20 17:42:54 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:42:54 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:43:32 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 10616@DESKTOP-O2PB285
+
+[2018-10-20 17:43:32 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:43:32 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:44:28 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 7-7)
+
+[2018-10-20 17:44:28 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 5864@DESKTOP-O2PB285
+
+[2018-10-20 17:44:28 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:44:28 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:45:30 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 10340@DESKTOP-O2PB285
+
+[2018-10-20 17:45:30 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:45:30 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:53:43 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 17696@DESKTOP-O2PB285
+
+[2018-10-20 17:53:43 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:53:43 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:54:49 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 1172@DESKTOP-O2PB285
+
+[2018-10-20 17:54:49 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:54:49 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:56:23 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 6676@DESKTOP-O2PB285
+
+[2018-10-20 17:56:23 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:56:23 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:57:34 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 16556@DESKTOP-O2PB285
+
+[2018-10-20 17:57:34 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:57:34 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 17:59:49 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 18420@DESKTOP-O2PB285
+
+[2018-10-20 17:59:49 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 17:59:49 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:00:40 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 17-17)
+
+[2018-10-20 18:00:40 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 16984@DESKTOP-O2PB285
+
+[2018-10-20 18:00:40 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:00:40 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:09:18 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 14184@DESKTOP-O2PB285
+
+[2018-10-20 18:09:18 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:09:18 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:10:15 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 5096@DESKTOP-O2PB285
+
+[2018-10-20 18:10:15 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:10:15 #3 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:11:02 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 22-23)
+
+[2018-10-20 18:11:02 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 19524@DESKTOP-O2PB285
+
+[2018-10-20 18:11:03 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:11:03 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:11:28 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 24-25)
+
+[2018-10-20 18:11:28 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 16848@DESKTOP-O2PB285
+
+[2018-10-20 18:11:28 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:11:28 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:15:36 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' has been recovered (tr. 26-30)
+
+[2018-10-20 18:15:36 #2 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 21728@DESKTOP-O2PB285
+
+[2018-10-20 18:15:36 #3 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:15:36 #4 type] 
+Type domain.Offer is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-10-20 18:18:37 #1 store] 
+Database 'C:\Users\iñigo\OneDrive\Workspace\RuralHouse-2017Int\landetxeak2.temp' is opened by 10288@DESKTOP-O2PB285
+
+[2018-10-20 18:18:37 #2 type] 
+Type domain.RuralHouse is not enhanced.
+
+[2018-10-20 18:18:37 #3 type] 
+Type domain.Offer is not enhanced.
+

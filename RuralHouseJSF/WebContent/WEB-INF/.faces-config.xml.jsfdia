@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#Main.xhtml" PATH="/Main.xhtml"
+  SHAPE="472,240,50,57" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#Main.xhtml:0" NAME="item" PATH="/Main.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="query::#QueryAvaiability.xhtml"
+    NAME="output" PATH="/QueryAvaiability.xhtml"
+    TARGET="rules:#QueryAvaiability.xhtml" TITLE="query" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#Main.xhtml:1" NAME="item1" PATH="/Main.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="set::#SetAvailability.xhtml" NAME="output"
+    PATH="/SetAvailability.xhtml" TARGET="rules:#SetAvailability.xhtml"
+    TITLE="set" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#QueryAvaiability.xhtml"
+  PATH="/QueryAvaiability.xhtml" SHAPE="296,128,50,57" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#QueryAvaiability.xhtml:0" NAME="item"
+   PATH="/QueryAvaiability.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="main::#Main.xhtml" NAME="output"
+    PATH="/Main.xhtml" TARGET="rules:#Main.xhtml" TITLE="main" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="Ejercicio2::#Ejercicio2.xhtml"
+    NAME="output1" PATH="/Ejercicio2.xhtml"
+    TARGET="rules:#Ejercicio2.xhtml" TITLE="Ejercicio2" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#QueryAvaiability.xhtml:1" NAME="item1"
+   PATH="/QueryAvaiability.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="book::#Book.xhtml" NAME="output"
+    PATH="/Book.xhtml" TARGET="rules:#Book.xhtml" TITLE="book" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#SetAvailability.xhtml"
+  PATH="/SetAvailability.xhtml" SHAPE="456,32,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#SetAvailability.xhtml:0" NAME="item"
+   PATH="/SetAvailability.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="main::#Main.xhtml" NAME="output"
+    PATH="/Main.xhtml" TARGET="rules:#Main.xhtml" TITLE="main" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#Book.xhtml" PATH="/Book.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#Book.xhtml:0" NAME="item" PATH="/Book.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="query::#QueryAvaiability.xhtml"
+    NAME="output" PATH="/QueryAvaiability.xhtml"
+    TARGET="rules:#QueryAvaiability.xhtml" TITLE="query" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#Ejercicio2.xhtml" PATH="/Ejercicio2.xhtml"
+  SHAPE="192,352,50,41" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#Ejercicio2.xhtml:0" NAME="item"
+   PATH="/Ejercicio2.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="query::#QueryAvaiability.xhtml"
+    NAME="output" PATH="/QueryAvaiability.xhtml"
+    TARGET="rules:#QueryAvaiability.xhtml" TITLE="query" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+</PROCESS>

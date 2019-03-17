@@ -58,17 +58,17 @@ public class SetBean {
 		try {
 			Offer o = facade.createOffer(casa, diaInicio, diaFin, precio);
 			if (o==null)
-	  			resultado = (ResourceBundle.getBundle("Etiquetas").getString("BadDatesOverlap"));
-	  		else resultado = (ResourceBundle.getBundle("Etiquetas").getString("OfferCreated"));
+	  			resultado = "BadDatesOverlap";
+	  		else resultado = "OfferCreated";
 
 
 		} catch (java.lang.NumberFormatException e1) {
-			//resultado = (jTextField3.getText()+ " "+ ResourceBundle.getBundle("Etiquetas").getString("PriceNotValid"));
+			resultado = "PriceNotValid";
 	  	} catch (OverlappingOfferExists e1) {
-	  		resultado =  (ResourceBundle.getBundle("Etiquetas").getString("OverlappingOffer"));
+	  		resultado =  "OverlappingOffer";
 	  	}
 	  	catch (BadDates e1) {
-	  		resultado = (ResourceBundle.getBundle("Etiquetas").getString("LastDayBefore"));
+	  		resultado = "LastDayBefore";
 	  	} catch (Exception e1) {
 
 	  		e1.printStackTrace();

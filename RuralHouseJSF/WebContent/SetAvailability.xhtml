@@ -34,7 +34,7 @@ xmlns:p="http://primefaces.org/ui">
 		<h:outputText id="diaInicio" value="#{setBean.diaInicio}" style="color:blue">
 			<f:convertDateTime pattern="dd/MM/yyyy" timeZone="CET" />
 		</h:outputText>
-		
+		<h:message for="firstDay"></h:message>
 		<p>Last Day:</p>
 		<p:calendar id="lastDay" value="#{setBean.diaFin}"
 			navigator="true" mode="popup" required="true"
@@ -44,6 +44,7 @@ xmlns:p="http://primefaces.org/ui">
 		<h:outputText id="diaFin" value="#{setBean.diaFin}" style="color:blue">
 			<f:convertDateTime pattern="dd/MM/yyyy" timeZone="CET" />
 		</h:outputText>
+		<h:message for="lastDay"></h:message>
 		<br />
 		<br />	
 		<p style="text-align: center">	

@@ -14,6 +14,7 @@
 	<h:body>
 	<h:form  style="background-color: #E6E6E6;">
 	<h1 style="text-align:center"> QUERY AVAILABILITY</h1>
+	
 		<p style="width: 143px;">Rural House:</p>
 		<h:selectOneMenu id="house" value="#{queryBean.casa}"
 			converter="omnifaces.SelectItemsConverter">
@@ -39,6 +40,7 @@
 		</h:inputText>
 		<h:message for="noches" style="color:red" />
 		<br />
+		
 		
 		<p:dataTable value="#{queryBean.offers}" id="tablaOfertas" var="offer" selectionMode="single" selection="#{queryBean.selectedOffer}" rowKey="#{offer.offerNumber}">
 			<p:column headerText="Number">
